@@ -8,4 +8,4 @@ Description: C interface for the PiFace Raspberry Pi add on.
 Requires:
 Version: @PACKAGE_VERSION@
 Libs: -L${libdir} -lpiface-1.0
-Cflags: -I${includedir}/piface-1.0 -I${libdir}/piface-1.0/include
+Cflags: -I${includedir}/libpiface-1.0 -I${libdir}/libpiface-1.0/include
